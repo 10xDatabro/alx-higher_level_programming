@@ -5,8 +5,11 @@ def print_matrix_integer(matrix=[[]]):
         col_num = len(matrix[0])
         for i in range(row_num):
             cur_row = matrix[i]
-            for n in range(col_num):
-                if n < col_num - 1:
-                    print("{}".format(cur_row[n]), end=" ")
-                if n == col_num - 1:
-                    print("{}".format(cur_row[n]))
+            if col_num == 0:
+                print("{}".format(""))
+            if col_num > 0:
+                for n in range(col_num):
+                    if n < col_num - 1:
+                        print("{:d}".format(cur_row[n]), end=" ")
+                    if n == col_num - 1:
+                        print("{:d}".format(cur_row[n]))
