@@ -47,4 +47,4 @@ we can print the matrix with this
 row_number = 3
 column_number = 4
 ```
-see [6-print_matrix_integer.py](https://github.com/10xDatabro/alx-higher_level_programming/blob/master/0x03-python-data_structures/6-print_matrix_integer.py] for code implementation)
+see [6-print_matrix_integer.py](https://github.com/10xDatabro/alx-higher_level_programming/blob/master/0x03-python-data_structures/6-print_matrix_integer.py) for code implementation
